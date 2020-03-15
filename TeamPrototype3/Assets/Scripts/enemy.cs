@@ -20,6 +20,7 @@ public class enemy : MonoBehaviour
     public float randomizerInt;
     public float bounceInt;
     public float initialShoot;
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -72,6 +73,7 @@ public class enemy : MonoBehaviour
     }
     void Shoot()
     {
+        animator.SetTrigger("Shoot");
         Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
         Invoke("Shoot", shootInterval);
     }

@@ -158,6 +158,10 @@ MonoBehaviour:
   shootPoint: {fileID: 5574035660041204594}
   self: {fileID: 5574035660125077447}
   shootInterval: 1
+  randomizerInt: 0
+  bounceInt: 0
+  initialShoot: 0
+  animator: {fileID: 5574035660125077449}
 --- !u!50 &5574035660125077452
 Rigidbody2D:
   serializedVersion: 4
