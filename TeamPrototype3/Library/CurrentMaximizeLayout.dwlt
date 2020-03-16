@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 815, y: 472}
-  m_MaxSize: {x: 22010, y: 14022}
+  m_MinSize: {x: 811, y: 472}
+  m_MaxSize: {x: 22006, y: 14022}
   vertical: 0
-  controlID: 5374
+  controlID: 9334
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,7 +131,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 472}
   m_MaxSize: {x: 10002, y: 14022}
   vertical: 1
-  controlID: 5312
+  controlID: 9302
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -232,8 +232,8 @@ MonoBehaviour:
     y: 257
     width: 232
     height: 514
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 7}
   m_Panes:
   - {fileID: 7}
@@ -278,19 +278,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\onewa\Documents\GitHub\Team_Prototype3\TeamPrototype3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a2d0000
-    m_LastClickedID: 11594
+    m_SelectedIDs: f4300000
+    m_LastClickedID: 12532
     m_ExpandedIDs: 000000004a2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -396,10 +396,10 @@ MonoBehaviour:
     y: 0
     width: 982
     height: 771
-  m_MinSize: {x: 308, y: 444}
-  m_MaxSize: {x: 8008, y: 8044}
+  m_MinSize: {x: 304, y: 422}
+  m_MaxSize: {x: 8004, y: 8044}
   vertical: 1
-  controlID: 5375
+  controlID: 9335
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -465,9 +465,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 21.551147, y: 342.20596, z: -689.21185}
+    m_Target: {x: -23.680763, y: 351.98895, z: -697.45087}
     speed: 2
-    m_Value: {x: 21.551147, y: 342.20596, z: -689.21185}
+    m_Value: {x: -23.680763, y: 351.98895, z: -697.45087}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -500,9 +500,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 451.8994
+    m_Target: 492.48618
     speed: 2
-    m_Value: 451.8994
+    m_Value: 492.48618
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -685,10 +685,10 @@ MonoBehaviour:
     y: 467
     width: 982
     height: 304
-  m_MinSize: {x: 308, y: 222}
-  m_MaxSize: {x: 8008, y: 4022}
+  m_MinSize: {x: 304, y: 200}
+  m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 5376
+  controlID: 9266
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -860,4 +860,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -8800
-  m_LastVerticalScrollValue: 192
+  m_LastVerticalScrollValue: 0

@@ -16,14 +16,16 @@ public class Player : MonoBehaviour
     public float speed;
     public Transform firePoint;
     public LineRenderer lr;
-    public static int hitPoints = 10;
+    public static int hitPoints = 20;
 
     public AudioClip shooting;
+    public AudioClip enemyDeath;
     // Start is called before the first frame update
     void Start()
     {
         lr.enabled = false;
         GetComponent<AudioSource>().clip = shooting;
+        GetComponent<AudioSource>().clip = enemyDeath;
         GetComponent<AudioSource>().playOnAwake = false;
     }
 
@@ -64,6 +66,8 @@ public class Player : MonoBehaviour
                 if( enemy != null)
                 {
                     enemy.DestroySelf();
+                    hitPoints++;
+                    GetComponent<AudioSource>().PlayOneShot(enemyDeath);
                 }
                 bullets bullet = hitInfo.transform.GetComponent<bullets>();
                 if (bullet != null)
@@ -95,7 +99,7 @@ public class Player : MonoBehaviour
 
     public void TakeDamage()
     {
-        hitPoints--;
+        hitPoints-= 4;
     }
 
     void EndGame()
