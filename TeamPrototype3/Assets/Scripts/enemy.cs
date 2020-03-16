@@ -21,6 +21,8 @@ public class enemy : MonoBehaviour
     public float bounceInt;
     public float initialShoot;
     public Animator animator;
+
+    public AudioClip spitting;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,9 @@ public class enemy : MonoBehaviour
         Invoke("PseudoRandom", bounceInt);
         Invoke("Bounce", randomizerInt);
         Invoke("Shoot", initialShoot);
+
+        GetComponent<AudioSource>().clip = spitting;
+        GetComponent<AudioSource>().playOnAwake = false;
     }
 
     // Update is called once per frame
@@ -76,6 +81,7 @@ public class enemy : MonoBehaviour
         animator.SetTrigger("Shoot");
         Instantiate(bulletPrefab, shootPoint.position, shootPoint.rotation);
         Invoke("Shoot", shootInterval);
+        GetComponent<AudioSource>().PlayOneShot(spitting);
     }
 
     public void DestroySelf()

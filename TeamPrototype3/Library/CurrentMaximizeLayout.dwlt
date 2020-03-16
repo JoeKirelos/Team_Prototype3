@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 771
-  m_MinSize: {x: 817, y: 494}
-  m_MaxSize: {x: 22012, y: 14044}
+  m_MinSize: {x: 815, y: 472}
+  m_MaxSize: {x: 22010, y: 14022}
   vertical: 0
-  controlID: 1957
+  controlID: 5374
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -128,10 +128,10 @@ MonoBehaviour:
     y: 0
     width: 232
     height: 771
-  m_MinSize: {x: 232, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 232, y: 472}
+  m_MaxSize: {x: 10002, y: 14022}
   vertical: 1
-  controlID: 1958
+  controlID: 5312
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eef8ffff42350000
+      m_ExpandedIDs: 96ddffff72fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -289,9 +289,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8300000
-    m_LastClickedID: 12536
-    m_ExpandedIDs: 00000000f830000000ca9a3b
+    m_SelectedIDs: 4a2d0000
+    m_LastClickedID: 11594
+    m_ExpandedIDs: 000000004a2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -319,7 +319,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f830000000ca9a3b
+    m_ExpandedIDs: 000000004a2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -344,9 +344,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c2350000
-    m_LastClickedInstanceID: 13762
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: a0ddffff
+    m_LastClickedInstanceID: -8800
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000ba400000663e0000404100007e4c0000b44c0000ec2e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_MinSize: {x: 308, y: 444}
   m_MaxSize: {x: 8008, y: 8044}
   vertical: 1
-  controlID: 1930
+  controlID: 5375
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -465,9 +465,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -30.053226, y: -16.74026, z: -528.3441}
+    m_Target: {x: 21.551147, y: 342.20596, z: -689.21185}
     speed: 2
-    m_Value: {x: -30.053226, y: -16.74026, z: -528.3441}
+    m_Value: {x: 21.551147, y: 342.20596, z: -689.21185}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -500,9 +500,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 184.20236
+    m_Target: 451.8994
     speed: 2
-    m_Value: 184.20236
+    m_Value: 451.8994
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -580,7 +580,7 @@ MonoBehaviour:
     height: 544
   m_ViewDataDictionary: {fileID: 0}
   m_ResetOnNextRepaint: 0
-  m_SelectedAssetPath: Assets/enemyProjectile.png
+  m_SelectedAssetPath: Assets/PlayerSprites/idle/idle_animation-01.png
   m_SelectedSpriteRectGUID: 5e97eb03825dee720800000000000000
   m_LastUsedModuleTypeName: UnityEditor.Experimental.U2D.Animation.SkinningModule
 --- !u!114 &13
@@ -647,10 +647,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 5c9a6205a7429dc43ae52eccb9b4f730,
+  m_AnimatorController: {fileID: 9100000, guid: 3b7dce4b795e6a84595e8f8e8ad3bb3d,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 2425126827329500041, guid: 5c9a6205a7429dc43ae52eccb9b4f730,
+  - m_Target: {fileID: -5184550205126639307, guid: 3b7dce4b795e6a84595e8f8e8ad3bb3d,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -688,7 +688,7 @@ MonoBehaviour:
   m_MinSize: {x: 308, y: 222}
   m_MaxSize: {x: 8008, y: 4022}
   vertical: 0
-  controlID: 1931
+  controlID: 5376
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1186
+  m_LastSelectedObjectID: -8800
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -859,5 +859,5 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 13762
-  m_LastVerticalScrollValue: 0
+  m_LastInspectedObjectInstanceID: -8800
+  m_LastVerticalScrollValue: 192

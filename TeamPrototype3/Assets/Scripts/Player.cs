@@ -16,11 +16,15 @@ public class Player : MonoBehaviour
     public float speed;
     public Transform firePoint;
     public LineRenderer lr;
-    public int hitPoints = 10;
+    public static int hitPoints = 10;
+
+    public AudioClip shooting;
     // Start is called before the first frame update
     void Start()
     {
         lr.enabled = false;
+        GetComponent<AudioSource>().clip = shooting;
+        GetComponent<AudioSource>().playOnAwake = false;
     }
 
     // Update is called once per frame
@@ -49,6 +53,7 @@ public class Player : MonoBehaviour
         {
             animator.SetTrigger("Shoot");
            RaycastHit2D hitInfo = Physics2D.Raycast(firePoint.position, firePoint.up);
+            GetComponent<AudioSource>().PlayOneShot(shooting);
             if (hitInfo)
             {
                 lr.SetPosition(0, firePoint.position);
