@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
         GetComponent<AudioSource>().clip = shooting;
         GetComponent<AudioSource>().clip = enemyDeath;
         GetComponent<AudioSource>().playOnAwake = false;
+        hitPoints = 20;
     }
 
     // Update is called once per frame
